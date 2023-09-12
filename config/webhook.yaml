@@ -133,8 +133,6 @@ spec:
           runAsUser: 65532
           runAsGroup: 65532
           runAsNonRoot: true
-          seccompProfile:
-            type: RuntimeDefault
         ports:
         - name: metrics
           containerPort: 9090
